@@ -8,7 +8,7 @@ use Digitonic\IexCloudSdk\Requests\BaseRequest;
 
 class Dividends extends BaseRequest
 {
-    const ENDPOINT = 'stock/{symbol}/range/5y';
+    const ENDPOINT = 'stock/{symbol}/dividends/5y';
 
     /**
      * Create constructor.
